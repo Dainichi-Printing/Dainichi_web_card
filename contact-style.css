@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  width: calc(100% - 16px - 16px);
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  padding: 32px 0 24px;
+}
+
+h2 {
+  margin-bottom: 32px;
+  letter-spacing: 0.1em;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 16px 43px;
+  border-radius: 3px;
+  background-color: #e60012;
+  box-shadow: 0 4px #b81c22;
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 32px;
+}
+
+.contact-note {
+  font-weight: 400;
+}
+
+.guide-nav {
+  padding:20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-nav a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12pt;
+  font-weight: 500;
+  color: black;
+}
+
+.fa-apple {
+  font-size: 24pt;
+  margin-right: 12px;
+}
+
+.divider {
+  margin: 0 8px;
+}
+
+.fa-android {
+  color: #3DDC84;
+  font-size: 28px;
+  margin-right: 6px;
+}
+
+.fa-up-right-from-square {
+  margin-left: 4px;
+}
+
+.guide-section {
+  padding: 24px 0;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.guide-section ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li + li {
+  margin-top: 16px;
+}
+
+li {
+  padding: 8px 8px 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.ios li {
+    background-color: #fbe3e6;
+}
+
+.step-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.step-text {
+  display: flex;
+}
+
+.step-text p {
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.step-desc {
+  font-size: 10pt;
+}
+
+.android li {
+    background-color: #e8f5e2;
+}
+
+footer {
+  padding: 16px 0;
+  text-align: center;
+}
