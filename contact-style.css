@@ -167,8 +167,12 @@ li {
   font-weight: 700;
 }
 
-.step-desc {
-  font-size: 10pt;
+.step-desc span {
+  font-size: 11pt;
+  color: #e60012;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;   /* 線の太さ */
+  text-underline-offset: 4px;  
 }
 
 .android li {
