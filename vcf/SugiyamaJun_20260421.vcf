@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:杉山;淳
+FN:大日印刷 杉山
+X-PHONETIC-LAST-NAME:スギヤマ
+X-PHONETIC-FIRST-NAME:ジュン
+ORG:大日印刷株式会社
+X-PHONETIC-ORG:ダイニチインサツカブシキガイシャ
+TITLE:営業本部
+TEL;TYPE=CELL:09081510889
+TEL;TYPE=WORK:0564628461
+EMAIL;TYPE=WORK:mail@p-dainichi.com
+EMAIL;TYPE=HOME:sugiyama@p-dainichi.com
+URL:https://www.p-dainichi.com
+ADR;TYPE=WORK:;;愛知県額田郡幸田町大字坂崎字石ノ塔46-1;;;;
+NOTE:デザインから印刷、製本まで自社一貫・高精細・短納期対応
+END:VCARD
