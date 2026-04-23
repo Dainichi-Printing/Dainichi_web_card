@@ -28,25 +28,56 @@ header {
 }
 
 h2 {
+  font-size: 26pt;
   margin-bottom: 32px;
   letter-spacing: 0.1em;
 }
 
-.contact-button {
-  display: inline-block;
-  padding: 16px 43px;
+.button {
+  display: flex;
+  justify-content: center;
+  width: 248px;
+  height: 32px;
+  margin: 0 auto;
+  padding: 8px;
   border-radius: 3px;
-  background-color: #e60012;
-  box-shadow: 0 4px #b81c22;
   text-decoration: none;
   color: white;
   font-size: 15pt;
   font-weight: bold;
   letter-spacing: 0.1em;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
+}
+
+.tell-button {
+  background-color:#005bac;
+  box-shadow: 0 4px #00437d;
+}
+
+.contact-button {
+  background-color: #e60012;
+  box-shadow: 0 4px #b81c22;
+}
+
+.button-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-phone-volume {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.fa-address-book {
+  font-size: 24px;
+  margin-right: 9px;
 }
 
 .contact-note {
+  margin-top: 40px;
+  font-size: 10pt;
   font-weight: 400;
 }
 
@@ -97,7 +128,7 @@ h3 {
 
 .guide-section ol {
   list-style: none;
-  margin: 0;
+  margin: 0 0 24px 0;
   padding: 0;
 }
 
