@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:藤澤;竜也
+FN:大日印刷 藤澤
+X-PHONETIC-LAST-NAME:フジサワ
+X-PHONETIC-FIRST-NAME:タツヤ
+ORG:大日印刷株式会社
+X-PHONETIC-ORG:ダイニチインサツカブシキガイシャ
+TITLE:営業本部
+TEL;TYPE=CELL:09081510802
+TEL;TYPE=WORK:0564628461
+EMAIL;TYPE=WORK:mail@p-dainichi.com
+EMAIL;TYPE=HOME:fuzisawa@p-dainichi.com
+URL:https://www.p-dainichi.com
+ADR;TYPE=WORK:;;愛知県額田郡幸田町大字坂崎字石ノ塔46-1;;;;
+NOTE:デザインから印刷、製本まで自社一貫・高精細・短納期対応
+END:VCARD
