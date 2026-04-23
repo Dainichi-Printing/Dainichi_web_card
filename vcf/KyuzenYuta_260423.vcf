@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:給前;雄也
+FN:大日印刷 給前
+X-PHONETIC-LAST-NAME:キュウゼン
+X-PHONETIC-FIRST-NAME:ユウヤ
+ORG:大日印刷株式会社
+X-PHONETIC-ORG:ダイニチインサツカブシキガイシャ
+TITLE:東京営業所
+TEL;TYPE=CELL:09012328461
+TEL;TYPE=WORK:0564628461
+EMAIL;TYPE=WORK:mail@p-dainichi.com
+EMAIL;TYPE=HOME:kyuzen@p-dainichi.com
+URL:https://www.p-dainichi.com
+ADR;TYPE=WORK:;;東京都墨田区江東橋5-16-12;;;;
+NOTE:デザインから印刷、製本まで自社一貫・高精細・短納期対応
+END:VCARD
