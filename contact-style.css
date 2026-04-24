@@ -60,6 +60,11 @@ h2 {
   box-shadow: 0 4px #00437d;
 }
 
+.mail-button {
+  background-color:#00ba88;
+  box-shadow: 0 4px #008864;
+}
+
 .contact-button {
   background-color: #e60012;
   box-shadow: 0 4px #b81c22;
@@ -72,6 +77,11 @@ h2 {
 }
 
 .fa-phone-volume {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.fa-envelope {
   font-size: 24px;
   margin-right: 8px;
 }
