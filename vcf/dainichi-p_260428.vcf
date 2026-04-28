@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:大日印刷株式会社
+FN:大日印刷
+X-PHONETIC-LAST-NAME:ダイニチインサツカブシキカイシャ
+ORG:大日印刷株式会社
+X-PHONETIC-ORG:ダイニチインサツカブシキガイシャ
+TEL;TYPE=WORK:0564628461
+TEL;TYPE=WORK:0362402570
+EMAIL;TYPE=WORK:mail@p-dainichi.com
+URL:https://www.p-dainichi.com
+ADR;TYPE=WORK:;;愛知県額田郡幸田町大字坂崎字石ノ塔46-1;;;;
+ADR;TYPE=WORK:;;東京都墨田区江東橋5-16-12;;;;
+NOTE:デザインから印刷、製本まで自社一貫・高精細・短納期対応
+END:VCARD
