@@ -213,6 +213,42 @@ li {
     background-color: #e8f5e2;
 }
 
+.links {
+  padding: 40px 0;
+}
+
+.link-card + .link-card {
+  margin-top: 20px;
+}
+
+.link-card a {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #bdbdbd;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.link-card img {
+  border-radius: 50px;
+  box-shadow: 0 0px 4px rgba(0,0,0,0.2);
+  margin-right: 16px;
+}
+
+.link-card p {
+  color: #4c4c4c;
+  font-size: 18pt;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.link-card .fa-up-right-from-square {
+  font-size: 12pt;
+  margin-left: 8px;
+}
+
 footer {
   padding: 16px 0;
   text-align: center;
