@@ -24,7 +24,7 @@ header {
 
 .contact {
   text-align: center;
-  padding: 32px 0 24px;
+  padding: 32px 0 16px;
 }
 
 .avatar {
@@ -52,7 +52,10 @@ h2 {
   font-size: 15pt;
   font-weight: bold;
   letter-spacing: 0.1em;
-  margin-bottom: 20px;
+}
+
+.button + .button {
+    margin-top: 20px;
 }
 
 .tel-button {
@@ -68,6 +71,12 @@ h2 {
 .contact-button {
   background-color: #e60012;
   box-shadow: 0 4px #b81c22;
+}
+
+.corporate-button {
+  font-size: 12pt;
+  background-color:#454545;
+  box-shadow: 0 4px #000000;
 }
 
 .button-inner {
@@ -91,14 +100,29 @@ h2 {
   margin-right: 9px;
 }
 
+.corporate-button .fa-up-right-from-square {
+  font-size: 20px;
+  margin-right: 9px;
+}
+
 .contact-note {
-  margin-top: 40px;
+  margin: 10px 0 16px;
   font-size: 10pt;
   font-weight: 400;
 }
 
+.nav {
+  padding: 32px 0 0;
+}
+
+.nav h4 {
+  font-size: 18pt;
+  margin-bottom: 16px;
+}
+
 .guide-nav {
-  padding:32px 0 10px;
+  margin-top: 8px;
+  padding:10px 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
