@@ -116,21 +116,32 @@ h2 {
 }
 
 .nav h4 {
-  color: #e60012;
-  border-top: solid 2px #e60012;
-  border-bottom: solid 2px #e60012;
-  padding: 8px 0px ;
+  padding-bottom: 8px;
+  border-bottom: 2px solid white;
+  color: white;
   font-size: 18pt;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
-.save-desc {
+.nav-item {
+  padding: 8px;
+  background-color: #e60012;
+  border: solid 2px #e60012;
+  margin-bottom: 16px;
+}
+
+.nav-item::after {
+  content:"▼" ;
+  position: absolute;
+  left: 50%;
   color: #e60012;
-  font-weight: 700;
-  font-size: 16pt;
 }
-
+.save-desc {
+  color:white;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
 .guide-nav {
   margin-top: 8px;
   padding:10px 0 10px;
