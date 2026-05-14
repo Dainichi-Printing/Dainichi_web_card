@@ -116,8 +116,19 @@ h2 {
 }
 
 .nav h4 {
-  font-size: 18pt;
+  color: #e60012;
+  border-top: solid 2px #e60012;
+  border-bottom: solid 2px #e60012;
+  padding: 8px 0px ;
+  font-size: 20pt;
+  font-weight: 700;
   margin-bottom: 16px;
+}
+
+.save-desc {
+  color: #e60012;
+  font-weight: 700;
+  font-size: 16pt;
 }
 
 .guide-nav {
