@@ -134,6 +134,7 @@ h2 {
 
 .nav-item::after {
   content:"▼" ;
+  font-size: 16pt;
   position: absolute;
   left: 50%;
   color: #e60012;
