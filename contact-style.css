@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+:root {
+  --Main_Red:#e60012;
+}
+
 * {
   margin: 0;
   /* outline: 1px solid red; */
@@ -69,7 +73,7 @@ h2 {
 }
 
 .contact-button {
-  background-color: #e60012;
+  background-color: var(--Main_Red);
   box-shadow: 0 4px #b81c22;
 }
 
@@ -117,8 +121,7 @@ h2 {
 
 .nav h4 {
   padding-bottom: 8px;
-  border-bottom: 2px solid white;
-  color: white;
+  border-bottom: 2px solid var(--Main_Red);
   font-size: 18pt;
   font-weight: 700;
   margin-bottom: 8px;
@@ -127,23 +130,23 @@ h2 {
 .nav-item {
   padding: 8px;
   border-radius: 3px;
-  background-color: #e60012;
-  border: solid 2px #e60012;
-  margin-bottom: 16px;
+  border: solid 2px var(--Main_Red);
+  margin-bottom: 24px;
+  color: var(--Main_Red);
+  position: relative;
 }
 
 .nav-item::after {
   content:"▼" ;
-  font-size: 16pt;
   position: absolute;
-  left: 50%;
-  color: #e60012;
+  bottom: -17px;
+  color: var(--Main_Red);
 }
+
 .save-desc {
-  color:white;
   font-weight: 700;
-  margin-bottom: 8px;
 }
+
 .guide-nav {
   margin-top: 8px;
   padding:10px 0 10px;
@@ -228,7 +231,7 @@ li {
 
 .step-desc span {
   font-size: 11pt;
-  color: #e60012;
+  color: var(--Main_Red);
   text-decoration: underline;
   text-decoration-thickness: 2px;   /* 線の太さ */
   text-underline-offset: 4px;  
