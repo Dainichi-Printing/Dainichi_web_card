@@ -126,6 +126,7 @@ h2 {
 
 .nav-item {
   padding: 8px;
+  border-radius: 3px;
   background-color: #e60012;
   border: solid 2px #e60012;
   margin-bottom: 16px;
